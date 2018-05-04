@@ -41,7 +41,7 @@ However, the library allowed for us to visually express the data in the way we h
 
 
 
-![scrn-1]: (https://github.com/dataviz2018/final-group3/blob/master/scrn-1.png)
+![scrn-1] (https://github.com/dataviz2018/final-group3/blob/master/scrn-1.png)
 
 
 
