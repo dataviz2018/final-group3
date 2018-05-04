@@ -39,9 +39,7 @@ Thus, after researching specialized JS frameworks and libraries, I decided to le
 
 However, the library allowed for us to visually express the data in the way we had prototyped it, which meant stacking line graphs over a series of circles whose area represents the total quantity of complaints per neighborhood. Though not loaded with interactive bells and whistles, our graphs translated our sketches and protoypes into real, working designs with a clean aesthetic.
 
-
-
-![scrn-1] (https://raw.githubusercontent.com/dataviz2018/final-group3/master/scrn-1.png)
+<img width="917" alt="scrn-1" src="https://user-images.githubusercontent.com/38872082/39655504-f6265906-4fc7-11e8-8e89-ceee1b6708bc.png">
 
 
 
