@@ -37,8 +37,9 @@ Though we focused mostly on using P5.js as a jumping off framework for learning 
 
 Thus, after researching specialized JS frameworks and libraries, I decided to learn how to use an open source library called Charts.js. The library holds many features that allow for many degrees of creative freedom when producing interactive charts, but unfortunately, the learning curve is still very steep.
 
-However, the library allowed for us to visually express the data in the way we had prototyped it, which meant stacking line graphs over a series of circles whose area represents the total quantity of complaints per neighborhood. Though not loaded with interactive bells and whistles, our graphs translated our sketches and protoypes into real, working designs with a clean aesthetic.
+However, the library allowed for us to visually express the data in the way we had prototyped. For example, for the graph below we had envisioned a stack of line graphs over a series of circles whose area represents the total quantity of complaints per neighborhood. The intent is for the users to be able to explore the complaints alongside the demographic variables per neighborhood, and gain some insight, or correlation from their values. Though not loaded with interactive bells and whistles, our graphs translated our sketches and protoypes into real, working designs with a clean aesthetic.
 
+Graph 1
 <img width="917" alt="scrn-1" src="https://user-images.githubusercontent.com/38872082/39655504-f6265906-4fc7-11e8-8e89-ceee1b6708bc.png">
 
 
