@@ -25,20 +25,21 @@ As such, it made for a wide, and interesting field of choices when it came to ou
 
 Faced with such a challenge we decided to distribute the work based on our individual strengths, such that my responsibilities were aligned more with the design and programming aspect of the project, while the rest of my peers tackled other tasks like data parsing, number wrangling, copywriting, and editing.
 
-#### THE SITE
+#### – THE SITE
 
 As someone who has been programming for less than 7 months, I considered that the final project was the best way to gain practice over HTML5 and CSS3, which we touched upon briefly during the beginning of the course before we shifted into P5.js as our main technology. This meant having to learn about the CSS grid layout and its integration with JavaScrip (JS) and HTML, as opposed to relying on solutions like pre-made wordpress templates, or Bootstrap. Thus the final layout for our site, though humble because of the time constraints, was custom designed and custom coded for the course.
 
 The fonts were paired from Google Fonts, and the color palette was kept simple for brevity. Our header was produced with an open sourced image from unsplash.com, and a bit of manipulation with Photoshop.
 
-#### THE VISUALIZATIONS
+#### – THE VISUALIZATIONS
 
 Though we focused mostly on using P5.js as a jumping off framework for learning JS, we had few opportunities for building a fully functional interactive chart from scratch, and our project needed something more robust to achieve the type of visualizations we wanted to implement.
 
 Thus, after researching specialized JS frameworks and libraries, I decided to learn how to use an open source library called Charts.js. The library holds many features that allow for many degrees of creative freedom when producing interactive charts, but unfortunately, the learning curve is still very steep.
 
-However, the library allowed for us to visually express the data in the way we had prototyped it, which meant stacking line graphs over a series of circles whose area represents the total quantity of complaints per neighborhood. Though not loaded with interactive bells and whistles, our graphs translated our sketches and protoypes into real, working designs.
+However, the library allowed for us to visually express the data in the way we had prototyped it, which meant stacking line graphs over a series of circles whose area represents the total quantity of complaints per neighborhood. Though not loaded with interactive bells and whistles, our graphs translated our sketches and protoypes into real, working designs with a clean aesthetic.
 
+![alt text][final-group3/scrn-1.png]
 
 
 
