@@ -25,13 +25,13 @@ As such, it made for a wide, and interesting field of choices when it came to ou
 
 Faced with such a challenge we decided to distribute the work based on our individual strengths, such that my responsibilities were aligned more with the design and programming aspect of the project, while the rest of my peers tackled other tasks like data parsing, number wrangling, copywriting, and editing.
 
-#### – THE SITE
+#### – The Site
 
 As someone who has been programming for less than 7 months, I considered that the final project was the best way to gain practice over HTML5 and CSS3, which we touched upon briefly during the beginning of the course before we shifted into P5.js as our main technology. This meant having to learn about the CSS grid layout and its integration with JavaScript (JS) and HTML, as opposed to relying on solutions like pre-made wordpress templates, or Bootstrap. Thus the final layout for our site, though humble because of the time constraints, was custom designed and custom coded for the course.
 
 The fonts were paired from Google Fonts, and the color palette was kept simple for brevity and ease of use. Our header was produced with an open sourced image from <unsplash.com>, and a bit of manipulation with Photoshop.
 
-#### – THE VISUALIZATIONS
+#### – The Visualizations
 
 Though we focused mostly on using P5.js as a jumping off framework for learning JS, we had few opportunities for building a fully functional interactive chart from scratch, and our project needed something more robust to achieve the type of visualizations we wanted to implement.
 
@@ -40,9 +40,18 @@ Thus, after researching specialized JS frameworks and libraries, I decided to le
 However, the library allowed for us to visually express the data in the way we had prototyped. For example, for the graph below we had envisioned a stack of line graphs over a series of circles whose area represents the total quantity of complaints per neighborhood. The intent is for the users to be able to explore the complaints alongside the demographic variables per neighborhood, and gain some insight or correlation from their values. Though not loaded with interactive bells and whistles, our graphs translated our sketches and protoypes into real, working designs with a clean aesthetic.
 
 Graph 1
+
+
 <img width="917" alt="scrn-1" src="https://user-images.githubusercontent.com/38872082/39655504-f6265906-4fc7-11e8-8e89-ceee1b6708bc.png">
 
 
+For our second graph we wanted to show the correlation of loud music complaints across the four seasons for every neighborhood, which we represented again as the area of a circle with different colors for every season.
+
+
+Graph 2
+
+
+<img width="971" alt="scrn-3" src="https://user-images.githubusercontent.com/38872082/39655951-b05ec73e-4fca-11e8-8efc-c9c029407798.png">
 
 
 
