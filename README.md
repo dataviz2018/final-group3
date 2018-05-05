@@ -42,9 +42,9 @@ https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-lion.page
 
 At first, we look at the general distribution of noise complaint in space, time and category. Our statistics suggest that most of the complaints clustering in Manhattan and Brooklyn. After careful consideration the team decided to narrow the focus of our analysis over music complaints in Manhattan, since the data set was too rich for the given time constraints and scope of our final assignment. We focused on music complaints because they comprise _47%_ of the total number of noise complaints in Manhattan, and greatly outnumber the second-most common type of complaint, which is construction sounds, by an almost twofold margin. For the purpose of specificity, we decided to analize the loud music complaints throughout an area that would cover Manhattan from North to South, which is why we chose to follow the trail of complaints over the length of _Broadway Avenue_. 
 
-<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/chart1.JPG">
+<img width='671' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/chart1.JPG">
 
-<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/chart2.JPG">
+<img width='671' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/chart2.JPG">
 
 We selected the demographic variables of income, education, and population, hoping to find connections between our subject and other measurements.
 
