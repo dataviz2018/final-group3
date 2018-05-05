@@ -54,5 +54,9 @@ Graph 2
 <img width="971" alt="scrn-3" src="https://user-images.githubusercontent.com/38872082/39655951-b05ec73e-4fca-11e8-8efc-c9c029407798.png">
 
 
+### Find and visualize characters of loud music complaint
+#### Jiacheng ZHOU (jz2866)
+The map shows the census tracts that are affected by sound noise. People generally can perceive a noise level change that is three decibels (dB), the unit used to measure the intensity of a sound, or greater. 
+According to Traffic Noise Basics Fact Sheet provided by KeepSanDiegoMoving project, 200 feet is the ‘effective’ noise spreading radius. Thus, we select 200ft as the buffer radius of the Broadway to find out what census tracts are contained in the affected area. Then, I select all the Loud of Music points located in those census tracts and the neighborhoods that contain these census tracts. After that, I downloaded NTA(Neighborhood Tabulation Area) data and spatial join the point data to the selected(affected) neighborhoods  to find out how many points are located in each affected neighborhood. 
 
 
