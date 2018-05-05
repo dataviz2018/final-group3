@@ -19,13 +19,21 @@ Before we determined to research the noise complaint, we search the internet for
 Besides the distribution of noise complaint in the aspects of space and time, we also wnant to find out the context of people’s complaints. We searched and downloaded the census tract demographic data in NYC Open Data.
 
 Datasets:
+
 Noise Complaint Dataset
-https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9        
+
+https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9 
+
 Neighborhood Demographics
+
 https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t
+
 Neighborhood Tabulation Area
+
 https://data.cityofnewyork.us/City-Government/Neighborhood-Tabulation-Areas/cpf4-rkhq/data
+
 Lion Dataset
+
 https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-lion.page
 
 ### EXPLORE THE DATA    
