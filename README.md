@@ -46,22 +46,29 @@ At first, we look at the general distribution of noise complaint in space, time 
 
 <img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/chart2.png">
 
-We selected the demographic variables of income, education, and population, hoping to find connections between our subject and other measurements.
+We selected the demographic variables of income, education, and population, hoping to find connections between our subject and other measurements.Form the graph, we can find the interest correlation between the number of the complaints and the total population, the educational level, and the median income.
 
-### DEAR GROUP MEMBERS,
-Please insert each of your contributions with a headline for your portion of the workload and add your name below it. Post your content after this so that we have a consistent style. Please look at my outline for an example.
+<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/data01.png">
 
+<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/data02.png">
 
+<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/data03.png">
 
+### Find and visualize characters of loud music complaint
+#### Jiacheng ZHOU, jz2866
+The map shows the census tracts that are affected by sound noise. People generally can perceive a noise level change that is three decibels (dB), the unit used to measure the intensity of a sound, or greater. 
+According to Traffic Noise Basics Fact Sheet provided by KeepSanDiegoMoving project, 200 feet is the ‘effective’ noise spreading radius. Thus, we select 200ft as the buffer radius of the Broadway to find out what census tracts are contained in the affected area. Then, I select all the Loud of Music points located in those census tracts and the neighborhoods that contain these census tracts. After that, I downloaded NTA(Neighborhood Tabulation Area) data and spatial join the point data to the selected(affected) neighborhoods  to find out how many points are located in each affected neighborhood. 
+<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/123.jpg">
+
+### Sketching ideas before final visualization 
+#### Kate Wang (kw2673)
+
+For the sketch, we draft our ideas using AI and PS so that any changes could be easily made before finalization into codings. The coding part is the hard core of the project, which is accomplished through using Atom and Git Bash. Both of them provide us the possibility to collaborate and to work as a team on our project as well as to look through and correct the coding job of everyone. Below is the graph that was drafted when we come up with a claer idea of incorporating three indicators, numbers of complaints in different neighborhoods, and seasonal changes into a same graph. 
+
+<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/Scrn-3.png">
 
 ### DESIGN AND IMPLEMENTATION
 #### Oskar Garcia, og2236
-
-I have to start by mentioning that our dataviz course is surprisingly diverse in the amount of material and skills covered, considering we only meet once a week for a single semester. As some of the guest reviewers mentioned during our final presentation, and I paraphrase, this course is a mix between data visualization, copywriting, graphic design, programming, web development, and interactive design.
-
-As such, it made for a wide, and interesting field of choices when it came to our final project. Our teams, all of which were made up of a veritable mix of creative individuals, had to face the reality of completing a creative project in the span of four weeks, which for a well established, professional agency would take months to complete.
-
-Faced with such a challenge we decided to distribute the work based on our individual strengths, such that my responsibilities were aligned more with the design and programming aspect of the project, while the rest of my peers tackled other tasks like data parsing, number wrangling, copywriting, and editing.
 
 #### – The Site
 
@@ -91,33 +98,6 @@ Graph 2
 
 <img width="971" alt="scrn-3" src="https://user-images.githubusercontent.com/38872082/39655951-b05ec73e-4fca-11e8-8efc-c9c029407798.png">
 
-
-### Find and visualize characters of loud music complaint
-#### Jiacheng ZHOU (jz2866)
-The map shows the census tracts that are affected by sound noise. People generally can perceive a noise level change that is three decibels (dB), the unit used to measure the intensity of a sound, or greater. 
-According to Traffic Noise Basics Fact Sheet provided by KeepSanDiegoMoving project, 200 feet is the ‘effective’ noise spreading radius. Thus, we select 200ft as the buffer radius of the Broadway to find out what census tracts are contained in the affected area. Then, I select all the Loud of Music points located in those census tracts and the neighborhoods that contain these census tracts. After that, I downloaded NTA(Neighborhood Tabulation Area) data and spatial join the point data to the selected(affected) neighborhoods  to find out how many points are located in each affected neighborhood. 
-<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/123.jpg">
-
-### Sketching our ideas before final visualization 
-#### Kate Wang (kw2673)
-
-For the sketch, we draft our ideas using AI and PS so that any changes could be easily made before finalization into codings. The coding part is the hard core of the project, which is accomplished through using Atom and Git Bash. Both of them provide us the possibility to collaborate and to work as a team on our project as well as to look through and correct the coding job of everyone. Below is the graph that was drafted when we come up with a claer idea of incorporating three indicators, numbers of complaints in different neighborhoods, and seasonal changes into a same graph. 
-
-<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/Scrn-3.png">
-
-### Data Process and Editing 
-#### Qianyu Xiang (qx2170)
-#### - The Data
-Urban planning emphasizes a lot on data analysis. As a graduate student of MSUP, I work well with all the aspects related to data. For the datasets we used, I found the resources and downloaded them from the website commonly used for urban planners, the loud music complaint data from the NYC311 on the website of NYC Open Data as well as the census data from American Factfinder.
-I first cleaned the data as the database contained millions of complaint records, which could be confusing and distracting. After discussion, we decided to extract the records of the loud music/ party complaints as it makes up 47.1% of the total counts. Then, we further narrowed our research down to the year of 2017 as the number of the loud music complaints steadily increases from 2010 and the changes through each year remains alike for each year, from which we assumed that the year of 2017 has the largest number of complaints and could work better to reveal the temporal pattern of complaints. 
-I integrated the two main data from different aspects. The single complaint records from each day are integrated into the number of complaints for each season and the census data in single census tracts are combined into different the indicators in corresponding neighborhoods. Here are some of the graphs generated from the data and more are in the documents. Form the graph, we can find the interest correlation between the number of the complaints and the total population, the educational level, and the median income.
-
-<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/data01.png">
-
-<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/data02.png">
-
-<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/data03.png">
-
-#### - The Editing
-Though I am not majorly working on the coding of the website, I did get involved in the design of the website and provide some suggestions for it. Through several group meeting, we decided the design and the layout of our website collectively. Also, I have taken the job of finishing part of the text editing job for the website, the explanation paragraphs for the indicators.
-The final documentation editing is part of my job as well as the other members. We reviewed the whole process of our design, data exploring as well as coding, finding the advantages and disadvantages of our projects as well as the flaws to be improved in the future.
+### Editing 
+#### Qianyu Xiang, qx2170 & Jialin Zhai, jz2893
+The final documentation editing is about the explanation and reflection of the whole project. We reviewed the whole process of our design, data exploring as well as coding, finding the advantages and disadvantages of our projects as well as the flaws to be improved in the future.
