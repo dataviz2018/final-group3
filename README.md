@@ -2,47 +2,13 @@
 
 # IS MUSIC TOO LOUD IN MANHATTAN?
 
-## INTRODUCTION
+### INTRODUCTION
 
-Prof. Saldarriaga proposed an idea during one of the first lectures in the course, which was "visualizing the sounds of the city." People live in modern city are surrounded by all kinds of noises today. Where and when do people complain more about noise? Our project, Is Music Too Loud in Manhattan, focuses on visualizing the clusters of loud music complaints in different neighborhoods in Manhattan in 2017, based on the 311 Service Requests from 2010 to Present. The result may surprise you.  
+For our final project we decided to follow an idea proposed by Prof. Saldarriaga during one of the first lectures in the course, which was "visualizing the sounds of the city." However, at the beginning of our research we encountered that the available data sets were scarce, which prompted us to look for a means to find indirect insigths into the soundscape of the city. This in turn, brought our attention to the data for noise complaints reported to _311_ across the years.
 
-Loud music is the most complained noise no matter in Manhattan or the rest of city. Notably, our research shows that the noise complaints increase significantly along Broadway where theaters, traffic and active human activities gathered. The number of the complaints changes along Broadway; however, the number of complaints change does not varies much during different seasons. 
+After careful consideration the team decided to narrow the focus of our analysis over music complaints in Manhattan, since the data set was too rich for the given time constraints and scope of our final assignment. We focused on music complaints because they comprise _47%_ of the total number of noise complaints in Manhattan, and greatly outnumber the second-most common type of complaint, which is construction sounds, by an almost twofold margin. For the purpose of specificity, we decided to analize the loud music complaints throughout an area that would cover Manhattan from North to South, which is why we chose to follow the trail of complaints over the length of _Broadway Avenue_. 
 
-Our project displays our findings of the loud music complaints in different neighborhoods along Broadway and the demographic characters of these neighborhoods. Viewers can also see the variations of complaints numbers from neighborhood to neighborhood during different seasons. The total complaint number of each neighborhood will show up by clicking the bubble of complaint.
-
-## PROCESS   
-
-### CHOOSE DATASETS     
-
-Before we determined to research the noise complaint, we search the internet for available dataset about noise. As we desire to show the spatial variances of noise in Manhattan, the dataset must have location information which can be identified in ArcGIS. However, at the beginning of our research we encountered that the available data sets were scarce, which prompted us to look for a means to find indirect insigths into the soundscape of the city. This in turn, brought our attention to the data for noise complaints reported to _311_ in 2017. This dataset has rich information and expresses people’s feelings about surrounding noise. 
-
-Besides the distribution of noise complaint in the aspects of space and time, we also wnant to find out the context of people’s complaints. We searched and downloaded the census tract demographic data in NYC Open Data.
-
-Datasets:
-
-Noise Complaint Dataset
-
-https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9 
-
-Neighborhood Demographics
-
-https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t
-
-Neighborhood Tabulation Area
-
-https://data.cityofnewyork.us/City-Government/Neighborhood-Tabulation-Areas/cpf4-rkhq/data
-
-Lion Dataset
-
-https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-lion.page
-
-### EXPLORE THE DATA    
-
-#### Jialin Zhai, jz2893 & Qianyu Xiang, qx2170 & Kate Wang, kw2673   
-
-At first, we look at the general distribution of noise complaint in space, time and category. Our statistics suggest that most of the complaints clustering in Manhattan and Brooklyn. After careful consideration the team decided to narrow the focus of our analysis over music complaints in Manhattan, since the data set was too rich for the given time constraints and scope of our final assignment. We focused on music complaints because they comprise _47%_ of the total number of noise complaints in Manhattan, and greatly outnumber the second-most common type of complaint, which is construction sounds, by an almost twofold margin. For the purpose of specificity, we decided to analize the loud music complaints throughout an area that would cover Manhattan from North to South, which is why we chose to follow the trail of complaints over the length of _Broadway Avenue_. 
-
-We selected the demographic variables of income, education, and population, hoping to find connections between our subject and other measurements.
+Finally, we decided to compare noise complaints against demographic variables from NYC Open Data, hoping to find connections between our subject and other measurements, such as income, education, and population.
 
 ### DEAR GROUP MEMBERS,
 Please insert each of your contributions with a headline for your portion of the workload and add your name below it. Post your content after this so that we have a consistent style. Please look at my outline for an example.
@@ -88,5 +54,15 @@ Graph 2
 <img width="971" alt="scrn-3" src="https://user-images.githubusercontent.com/38872082/39655951-b05ec73e-4fca-11e8-8efc-c9c029407798.png">
 
 
+### Find and visualize characters of loud music complaint
+#### Jiacheng ZHOU (jz2866)
+The map shows the census tracts that are affected by sound noise. People generally can perceive a noise level change that is three decibels (dB), the unit used to measure the intensity of a sound, or greater. 
+According to Traffic Noise Basics Fact Sheet provided by KeepSanDiegoMoving project, 200 feet is the ‘effective’ noise spreading radius. Thus, we select 200ft as the buffer radius of the Broadway to find out what census tracts are contained in the affected area. Then, I select all the Loud of Music points located in those census tracts and the neighborhoods that contain these census tracts. After that, I downloaded NTA(Neighborhood Tabulation Area) data and spatial join the point data to the selected(affected) neighborhoods  to find out how many points are located in each affected neighborhood. 
+<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/123.jpg">
 
+### Sketching our ideas before final visualization 
+#### Kate Wang (kw2673)
 
+For the sketch, we draft our ideas using AI and PS so that any changes could be easily made before finalization into codings. The coding part is the hard core of the project, which is accomplished through using Atom and Git Bash. Both of them provide us the possibility to collaborate and to work as a team on our project as well as to look through and correct the coding job of everyone. Below is the graph that was drafted when we come up with a claer idea of incorporating three indicators, numbers of complaints in different neighborhoods, and seasonal changes into a same graph. 
+
+<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/Scrn-3.png">
