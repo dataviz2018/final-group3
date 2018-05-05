@@ -9,40 +9,40 @@ Prof. Saldarriaga proposed an idea during one of the first lectures in the cours
 Loud music is the most complained noise no matter in Manhattan or the rest of city. Notably, our research shows that the noise complaints increase significantly along Broadway where theaters, traffic and active human activities gathered. The number of the complaints changes along Broadway; however, the number of complaints change does not varies much during different seasons. 
 
 Our project displays our findings of the loud music complaints in different neighborhoods along Broadway and the demographic characters of these neighborhoods. Viewers can also see the variations of complaints numbers from neighborhood to neighborhood during different seasons. The total complaint number of each neighborhood will show up by clicking the bubble of complaint.
--
--## PROCESS   
--
--### CHOOSE DATASETS     
--
--Before we determined to research the noise complaint, we search the internet for available dataset about noise. As we desire to show the spatial variances of noise in Manhattan, the dataset must have location information which can be identified in ArcGIS. However, at the beginning of our research we encountered that the available data sets were scarce, which prompted us to look for a means to find indirect insigths into the soundscape of the city. This in turn, brought our attention to the data for noise complaints reported to _311_ in 2017. This dataset has rich information and expresses people’s feelings about surrounding noise. 
--
--Besides the distribution of noise complaint in the aspects of space and time, we also wnant to find out the context of people’s complaints. We searched and downloaded the census tract demographic data in NYC Open Data.
--
--Datasets:
--
--Noise Complaint Dataset
--
--https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9 
--
--Neighborhood Demographics
--
--https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t
--
--Neighborhood Tabulation Area
--
--https://data.cityofnewyork.us/City-Government/Neighborhood-Tabulation-Areas/cpf4-rkhq/data
--
--Lion Dataset
--
--https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-lion.page
--
--### EXPLORE THE DATA    
--
--#### Jialin Zhai, jz2893 & Qianyu Xiang, qx2170 & Kate Wang, kw2673   
--
--At first, we look at the general distribution of noise complaint in space, time and category. Our statistics suggest that most of the complaints clustering in Manhattan and Brooklyn. After careful consideration the team decided to narrow the focus of our analysis over music complaints in Manhattan, since the data set was too rich for the given time constraints and scope of our final assignment. We focused on music complaints because they comprise _47%_ of the total number of noise complaints in Manhattan, and greatly outnumber the second-most common type of complaint, which is construction sounds, by an almost twofold margin. For the purpose of specificity, we decided to analize the loud music complaints throughout an area that would cover Manhattan from North to South, which is why we chose to follow the trail of complaints over the length of _Broadway Avenue_. 
--
--We selected the demographic variables of income, education, and population, hoping to find connections between our subject and other measurements.
+
+## PROCESS   
+
+### CHOOSE DATASETS     
+
+Before we determined to research the noise complaint, we search the internet for available dataset about noise. As we desire to show the spatial variances of noise in Manhattan, the dataset must have location information which can be identified in ArcGIS. However, at the beginning of our research we encountered that the available data sets were scarce, which prompted us to look for a means to find indirect insigths into the soundscape of the city. This in turn, brought our attention to the data for noise complaints reported to _311_ in 2017. This dataset has rich information and expresses people’s feelings about surrounding noise. 
+
+Besides the distribution of noise complaint in the aspects of space and time, we also wnant to find out the context of people’s complaints. We searched and downloaded the census tract demographic data in NYC Open Data.
+
+Datasets:
+
+Noise Complaint Dataset
+
+https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9 
+
+Neighborhood Demographics
+
+https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t
+
+Neighborhood Tabulation Area
+
+https://data.cityofnewyork.us/City-Government/Neighborhood-Tabulation-Areas/cpf4-rkhq/data
+
+Lion Dataset
+
+https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-lion.page
+
+### EXPLORE THE DATA    
+
+#### Jialin Zhai, jz2893 & Qianyu Xiang, qx2170 & Kate Wang, kw2673   
+
+At first, we look at the general distribution of noise complaint in space, time and category. Our statistics suggest that most of the complaints clustering in Manhattan and Brooklyn. After careful consideration the team decided to narrow the focus of our analysis over music complaints in Manhattan, since the data set was too rich for the given time constraints and scope of our final assignment. We focused on music complaints because they comprise _47%_ of the total number of noise complaints in Manhattan, and greatly outnumber the second-most common type of complaint, which is construction sounds, by an almost twofold margin. For the purpose of specificity, we decided to analize the loud music complaints throughout an area that would cover Manhattan from North to South, which is why we chose to follow the trail of complaints over the length of _Broadway Avenue_. 
+
+We selected the demographic variables of income, education, and population, hoping to find connections between our subject and other measurements.
 
 ### DEAR GROUP MEMBERS,
 Please insert each of your contributions with a headline for your portion of the workload and add your name below it. Post your content after this so that we have a consistent style. Please look at my outline for an example.
