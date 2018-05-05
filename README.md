@@ -100,3 +100,20 @@ According to Traffic Noise Basics Fact Sheet provided by KeepSanDiegoMoving proj
 For the sketch, we draft our ideas using AI and PS so that any changes could be easily made before finalization into codings. The coding part is the hard core of the project, which is accomplished through using Atom and Git Bash. Both of them provide us the possibility to collaborate and to work as a team on our project as well as to look through and correct the coding job of everyone. Below is the graph that was drafted when we come up with a claer idea of incorporating three indicators, numbers of complaints in different neighborhoods, and seasonal changes into a same graph. 
 
 <img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/Scrn-3.png">
+
+### Data Process and Editing 
+#### Qianyu Xiang (qx2170)
+#### - The Data
+Urban planning emphasizes a lot on data analysis. As a graduate student of MSUP, I work well with all the aspects related to data. For the datasets we used, I found the resources and downloaded them from the website commonly used for urban planners, the loud music complaint data from the NYC311 on the website of NYC Open Data as well as the census data from American Factfinder.
+I first cleaned the data as the database contained millions of complaint records, which could be confusing and distracting. After discussion, we decided to extract the records of the loud music/ party complaints as it makes up 47.1% of the total counts. Then, we further narrowed our research down to the year of 2017 as the number of the loud music complaints steadily increases from 2010 and the changes through each year remains alike for each year, from which we assumed that the year of 2017 has the largest number of complaints and could work better to reveal the temporal pattern of complaints. 
+I integrated the two main data from different aspects. The single complaint records from each day are integrated into the number of complaints for each season and the census data in single census tracts are combined into different the indicators in corresponding neighborhoods. Here are some of the graphs generated from the data and more are in the documents. Form the graph, we can find the interest correlation between the number of the complaints and the total population, the educational level, and the median income.
+
+<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/data01.png">
+
+<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/data02.png">
+
+<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/data03.png">
+
+#### - The Editing
+Though I am not majorly working on the coding of the website, I did get involved in the design of the website and provide some suggestions for it. Through several group meeting, we decided the design and the layout of our website collectively. Also, I have taken the job of finishing part of the text editing job for the website, the explanation paragraphs for the indicators.
+The final documentation editing is part of my job as well as the other members. We reviewed the whole process of our design, data exploring as well as coding, finding the advantages and disadvantages of our projects as well as the flaws to be improved in the future.
