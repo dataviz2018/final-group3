@@ -65,4 +65,4 @@ According to Traffic Noise Basics Fact Sheet provided by KeepSanDiegoMoving proj
 
 For the sketches, we draft our ideas using AI and PS so that any changes could be easily made before finalization into codings. The coding part is the hard core of the project, which is accomplished through Atom and Git Bash. Both of them provide us the possibility to collaborate and to work as a team on our project as well as to look through and correct the coding job of everyone. 
 
-<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/Scrn-3.jpg">
+<img width='971' alt='123' src="https://github.com/dataviz2018/final-group3/blob/master/Scrn-3.png">
